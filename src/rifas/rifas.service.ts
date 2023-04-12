@@ -57,6 +57,8 @@ export class RifasService {
 
   update(id: number, updateRifaDto: UpdateRifaDto) {
     return `This action updates a #${id} rifa`;
+
+    //prueba
   }
 
   remove(id: number) {
