@@ -45,7 +45,7 @@ export class RifasService {
       id:id
     })
 
-    if(!rifa) throw new NotFoundException('No se encontre la rifa')
+    if(!rifa) throw new NotFoundException('No se encontro la rifa')
 
     const response: BaseResponseModel<Rifa> = {
       code: '200',

@@ -23,6 +23,7 @@ export class Boleto {
         default: StatusBoleto.APARTADO
 
     })
+    status:string
 
     @ManyToOne(
         () => Rifa,

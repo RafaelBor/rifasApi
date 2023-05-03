@@ -8,7 +8,7 @@ export class User {
     id:string
 
     @Column('text',{
-        unique:true
+        unique:true,
     })
     email:string
 
